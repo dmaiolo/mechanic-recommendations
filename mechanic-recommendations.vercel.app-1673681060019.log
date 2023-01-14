@@ -1,0 +1,64 @@
+index-17812bed12c86ccf.js:1          POST https://mechanic-recommendations.vercel.app/api/generate-mechanic-tips 500
+(anonymous) @ index-17812bed12c86ccf.js:1
+l @ main-f65e66e62fc5ca80.js:1
+(anonymous) @ main-f65e66e62fc5ca80.js:1
+P.forEach.e.<computed> @ main-f65e66e62fc5ca80.js:1
+d @ index-17812bed12c86ccf.js:1
+i @ index-17812bed12c86ccf.js:1
+(anonymous) @ index-17812bed12c86ccf.js:1
+(anonymous) @ index-17812bed12c86ccf.js:1
+k @ index-17812bed12c86ccf.js:1
+onSubmit @ index-17812bed12c86ccf.js:1
+$e @ framework-e70c6273bfe3f237.js:1
+Ye @ framework-e70c6273bfe3f237.js:1
+(anonymous) @ framework-e70c6273bfe3f237.js:1
+Nr @ framework-e70c6273bfe3f237.js:1
+Tr @ framework-e70c6273bfe3f237.js:1
+(anonymous) @ framework-e70c6273bfe3f237.js:1
+De @ framework-e70c6273bfe3f237.js:1
+(anonymous) @ framework-e70c6273bfe3f237.js:1
+Ir @ framework-e70c6273bfe3f237.js:1
+Jt @ framework-e70c6273bfe3f237.js:1
+Zt @ framework-e70c6273bfe3f237.js:1
+t.unstable_runWithPriority @ framework-e70c6273bfe3f237.js:1
+Ql @ framework-e70c6273bfe3f237.js:1
+Me @ framework-e70c6273bfe3f237.js:1
+Xt @ framework-e70c6273bfe3f237.js:1
+VM149:1 Uncaught (in promise) SyntaxError: Unexpected end of JSON input
+    at index-17812bed12c86ccf.js:1:1274
+    at l (main-f65e66e62fc5ca80.js:1:94986)
+    at Generator._invoke (main-f65e66e62fc5ca80.js:1:94774)
+    at P.forEach.e.<computed> [as next] (main-f65e66e62fc5ca80.js:1:95409)
+    at d (index-17812bed12c86ccf.js:1:363)
+    at i (index-17812bed12c86ccf.js:1:566)
+(anonymous) @ index-17812bed12c86ccf.js:1
+l @ main-f65e66e62fc5ca80.js:1
+(anonymous) @ main-f65e66e62fc5ca80.js:1
+P.forEach.e.<computed> @ main-f65e66e62fc5ca80.js:1
+d @ index-17812bed12c86ccf.js:1
+i @ index-17812bed12c86ccf.js:1
+Promise.then (async)
+d @ index-17812bed12c86ccf.js:1
+i @ index-17812bed12c86ccf.js:1
+Promise.then (async)
+d @ index-17812bed12c86ccf.js:1
+i @ index-17812bed12c86ccf.js:1
+(anonymous) @ index-17812bed12c86ccf.js:1
+(anonymous) @ index-17812bed12c86ccf.js:1
+k @ index-17812bed12c86ccf.js:1
+onSubmit @ index-17812bed12c86ccf.js:1
+$e @ framework-e70c6273bfe3f237.js:1
+Ye @ framework-e70c6273bfe3f237.js:1
+(anonymous) @ framework-e70c6273bfe3f237.js:1
+Nr @ framework-e70c6273bfe3f237.js:1
+Tr @ framework-e70c6273bfe3f237.js:1
+(anonymous) @ framework-e70c6273bfe3f237.js:1
+De @ framework-e70c6273bfe3f237.js:1
+(anonymous) @ framework-e70c6273bfe3f237.js:1
+Ir @ framework-e70c6273bfe3f237.js:1
+Jt @ framework-e70c6273bfe3f237.js:1
+Zt @ framework-e70c6273bfe3f237.js:1
+t.unstable_runWithPriority @ framework-e70c6273bfe3f237.js:1
+Ql @ framework-e70c6273bfe3f237.js:1
+Me @ framework-e70c6273bfe3f237.js:1
+Xt @ framework-e70c6273bfe3f237.js:1

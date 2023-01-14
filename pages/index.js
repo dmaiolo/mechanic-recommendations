@@ -32,15 +32,6 @@ export default function Home() {
     setLoading(false);
   }
 
-  const handleRecommendationClick = async (recommendation) => {
-    setLoading(true);
-    setDetails("");
-    const response = await fetch(`/api/generate-mechanic-recommendation-details?recommendation=${recommendation}`);
-    const data = await response.json();
-    setDetails(data.result);
-    setLoading(false);
-  };
-
 // the rest of the code goes here
 
   return (
@@ -90,8 +81,8 @@ export default function Home() {
             value={issue}
             onChange={(e) => setIssue(e.target.value)}
             onBlur={(e) => {
-              if(e.target.value.length < 100 || e.target.value.length > 500){
-                alert("Issue Description should be between 100 and 500 characters");
+              if(e.target.value.length < 50 || e.target.value.length > 500){
+                alert("Issue Description should be between 50 and 500 characters");
               }
             }}
           />
@@ -99,7 +90,7 @@ export default function Home() {
         </form>
         {loading && (
           <div>
-            <h3>Searching for recommendations 🚗 🔧</h3>
+            <h3>Asking local mechanics for recommendations ... 🚗 🔧</h3>
             <img src="/loading.webp" className={styles.loading} />
           </div>
         )}
